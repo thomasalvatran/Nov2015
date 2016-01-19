@@ -54,7 +54,7 @@ int main ()
          }
    }
    printf("Thread joined returned %s\n", (char *)ret_join);
-   printf("Thread joined returned %s\n", (char *)td[i].message);
+   printf("Thread joined returned %c\n", (char *)td[i].message);
    printf("Thread joined returned %s\n", thread_msg);  //global
    pthread_exit(NULL);
 }
